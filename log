@@ -1,0 +1,13 @@
+
+turtle.dig()
+turtle.forward()
+turtle.select(1)
+
+while turtle.compareUp() do
+  turtle.digUp()
+  turtle.up()
+end
+
+while turtle.detectDown() == false do
+  turtle.down()
+end
